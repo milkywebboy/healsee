@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D698C29F2F065637004E89CF /* healsee Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D698C29E2F065637004E89CF /* healsee Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D698C2A02F065637004E89CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D698C2922F065636004E89CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D698C29D2F065637004E89CF;
+			remoteInfo = "healsee Watch App";
+		};
+		D698C2AE2F065639004E89CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D698C2922F065636004E89CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D698C29D2F065637004E89CF;
+			remoteInfo = "healsee Watch App";
+		};
+		D698C2B82F065639004E89CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D698C2922F065636004E89CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D698C29D2F065637004E89CF;
+			remoteInfo = "healsee Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D698C2C42F065639004E89CF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D698C29F2F065637004E89CF /* healsee Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D698C2982F065637004E89CF /* healsee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healsee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D698C29E2F065637004E89CF /* healsee Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "healsee Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D698C2AD2F065639004E89CF /* healsee Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "healsee Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D698C2B72F065639004E89CF /* healsee Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "healsee Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D698C2A22F065637004E89CF /* healsee Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "healsee Watch App";
+			sourceTree = "<group>";
+		};
+		D698C2B02F065639004E89CF /* healsee Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "healsee Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D698C2BA2F065639004E89CF /* healsee Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "healsee Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D698C29B2F065637004E89CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2AA2F065639004E89CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2B42F065639004E89CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D698C2912F065636004E89CF = {
+			isa = PBXGroup;
+			children = (
+				D698C2A22F065637004E89CF /* healsee Watch App */,
+				D698C2B02F065639004E89CF /* healsee Watch AppTests */,
+				D698C2BA2F065639004E89CF /* healsee Watch AppUITests */,
+				D698C2992F065637004E89CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D698C2992F065637004E89CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D698C2982F065637004E89CF /* healsee.app */,
+				D698C29E2F065637004E89CF /* healsee Watch App.app */,
+				D698C2AD2F065639004E89CF /* healsee Watch AppTests.xctest */,
+				D698C2B72F065639004E89CF /* healsee Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D698C2972F065637004E89CF /* healsee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D698C2C52F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee" */;
+			buildPhases = (
+				D698C2962F065637004E89CF /* Resources */,
+				D698C2C42F065639004E89CF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D698C2A12F065637004E89CF /* PBXTargetDependency */,
+			);
+			name = healsee;
+			packageProductDependencies = (
+			);
+			productName = healsee;
+			productReference = D698C2982F065637004E89CF /* healsee.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D698C29D2F065637004E89CF /* healsee Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D698C2C12F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch App" */;
+			buildPhases = (
+				D698C29A2F065637004E89CF /* Sources */,
+				D698C29B2F065637004E89CF /* Frameworks */,
+				D698C29C2F065637004E89CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D698C2A22F065637004E89CF /* healsee Watch App */,
+			);
+			name = "healsee Watch App";
+			packageProductDependencies = (
+			);
+			productName = "healsee Watch App";
+			productReference = D698C29E2F065637004E89CF /* healsee Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D698C2AC2F065639004E89CF /* healsee Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D698C2C82F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch AppTests" */;
+			buildPhases = (
+				D698C2A92F065639004E89CF /* Sources */,
+				D698C2AA2F065639004E89CF /* Frameworks */,
+				D698C2AB2F065639004E89CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D698C2AF2F065639004E89CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D698C2B02F065639004E89CF /* healsee Watch AppTests */,
+			);
+			name = "healsee Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "healsee Watch AppTests";
+			productReference = D698C2AD2F065639004E89CF /* healsee Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D698C2B62F065639004E89CF /* healsee Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D698C2CB2F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch AppUITests" */;
+			buildPhases = (
+				D698C2B32F065639004E89CF /* Sources */,
+				D698C2B42F065639004E89CF /* Frameworks */,
+				D698C2B52F065639004E89CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D698C2B92F065639004E89CF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D698C2BA2F065639004E89CF /* healsee Watch AppUITests */,
+			);
+			name = "healsee Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "healsee Watch AppUITests";
+			productReference = D698C2B72F065639004E89CF /* healsee Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D698C2922F065636004E89CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D698C2972F065637004E89CF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D698C29D2F065637004E89CF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D698C2AC2F065639004E89CF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D698C29D2F065637004E89CF;
+					};
+					D698C2B62F065639004E89CF = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D698C29D2F065637004E89CF;
+					};
+				};
+			};
+			buildConfigurationList = D698C2952F065636004E89CF /* Build configuration list for PBXProject "healsee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D698C2912F065636004E89CF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D698C2992F065637004E89CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D698C2972F065637004E89CF /* healsee */,
+				D698C29D2F065637004E89CF /* healsee Watch App */,
+				D698C2AC2F065639004E89CF /* healsee Watch AppTests */,
+				D698C2B62F065639004E89CF /* healsee Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D698C2962F065637004E89CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C29C2F065637004E89CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2AB2F065639004E89CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2B52F065639004E89CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D698C29A2F065637004E89CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2A92F065639004E89CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D698C2B32F065639004E89CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D698C2A12F065637004E89CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D698C29D2F065637004E89CF /* healsee Watch App */;
+			targetProxy = D698C2A02F065637004E89CF /* PBXContainerItemProxy */;
+		};
+		D698C2AF2F065639004E89CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D698C29D2F065637004E89CF /* healsee Watch App */;
+			targetProxy = D698C2AE2F065639004E89CF /* PBXContainerItemProxy */;
+		};
+		D698C2B92F065639004E89CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D698C29D2F065637004E89CF /* healsee Watch App */;
+			targetProxy = D698C2B82F065639004E89CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D698C2BF2F065639004E89CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 44U898G984;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D698C2C02F065639004E89CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 44U898G984;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D698C2C22F065639004E89CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = healsee;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D698C2C32F065639004E89CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = healsee;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		D698C2C62F065639004E89CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				INFOPLIST_KEY_CFBundleDisplayName = healsee;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D698C2C72F065639004E89CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				INFOPLIST_KEY_CFBundleDisplayName = healsee;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D698C2C92F065639004E89CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healsee Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/healsee Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D698C2CA2F065639004E89CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healsee Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/healsee Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		D698C2CC2F065639004E89CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "healsee Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		D698C2CD2F065639004E89CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44U898G984;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healsee-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "healsee Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D698C2952F065636004E89CF /* Build configuration list for PBXProject "healsee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D698C2BF2F065639004E89CF /* Debug */,
+				D698C2C02F065639004E89CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D698C2C12F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D698C2C22F065639004E89CF /* Debug */,
+				D698C2C32F065639004E89CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D698C2C52F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D698C2C62F065639004E89CF /* Debug */,
+				D698C2C72F065639004E89CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D698C2C82F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D698C2C92F065639004E89CF /* Debug */,
+				D698C2CA2F065639004E89CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D698C2CB2F065639004E89CF /* Build configuration list for PBXNativeTarget "healsee Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D698C2CC2F065639004E89CF /* Debug */,
+				D698C2CD2F065639004E89CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D698C2922F065636004E89CF /* Project object */;
+}
